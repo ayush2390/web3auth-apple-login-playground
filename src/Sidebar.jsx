@@ -14,7 +14,8 @@ const Sidebar = () => {
     navigate("/user");
   };
   const sourceCode = () => {
-    window.location.href = "https://github.com/your-repo-url"; // Replace with your GitHub repo URL
+    window.location.href =
+      "https://github.com/ayush2390/web3auth-apple-login-playground"; // Replace with your GitHub repo URL
   };
 
   return (
@@ -23,11 +24,6 @@ const Sidebar = () => {
         <li onClick={dashboard}>Main Page</li>
         <li onClick={deployContract}>Deploy Contract</li>
         <li onClick={readContract}>Read Contract</li>
-        <li>Server Side Verification</li>
-        <li>WalletConnect Scanner</li>
-        <li>Wallet UI</li>
-        <li>Fiat On Ramp</li>
-        <li>Explorer Link</li>
         <li onClick={sourceCode}>Source Code</li>
       </ul>
     </div>
