@@ -1,0 +1,71 @@
+/* DeployContractButton.css */
+.success-message {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+button {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.content {
+  flex-grow: 1; /* Take up remaining space */
+  padding: 20px; /* Optional: add padding for spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align items to the right */
+}
+
+.deployContractBtn {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 400px;
+  margin-top: 100px;
+  background-color: #03346e;
+  color: white;
+}
+
+.deployContractBtn:hover {
+  color: black;
+  background-color: white;
+}
+
+.contractAddress {
+  margin-top: 70px;
+  padding-left: 300px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.copyBtn {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 400px;
+  /* margin-top: 100px; */
+  background-color: #03346e;
+  color: white;
+}
+.copyBtn:hover {
+  color: black;
+  background-color: white;
+}

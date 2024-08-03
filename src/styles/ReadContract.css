@@ -1,0 +1,73 @@
+/* ReadContract.css */
+
+.container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px; /* Add padding for spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+/* input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+} */
+
+.btn {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 150px;
+  margin-top: 30px;
+  background-color: #03346e;
+  color: white;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.error-message {
+  color: red;
+}
+
+.inputBar {
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 700px;
+  font-size: 20px;
+}
+
+.inputBarSecond {
+  margin-top: 50px;
+}
+
+.greeting {
+  margin-top: 40px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}

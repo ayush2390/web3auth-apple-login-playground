@@ -1,0 +1,13 @@
+.login {
+  margin-left: 400%;
+  width: 200px;
+}
+
+.loginButton {
+  padding: 30px;
+  border: 1px solid;
+}
+
+.loginButton:hover {
+  background-color: #e2dad6;
+}
